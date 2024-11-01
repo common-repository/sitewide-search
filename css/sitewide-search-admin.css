@@ -1,0 +1,33 @@
+#blog-result label {
+	display: inline;
+}
+
+#blog-result .blog-template {
+	display: none;
+}
+
+input.working {
+	color: gray;
+	padding-right: 20px;
+	background: url('../../../../wp-admin/images/loading.gif') right center no-repeat;
+}
+
+input.button-primary.working,
+input.button-primary.working:focus,
+input.button-primary.working:hover {
+	color: gray;
+	padding-left: 24px;
+	background: url('../../../../wp-admin/images/loading.gif') 4px center no-repeat;
+}
+
+.sitewide-search-admin td {
+	vertical-align: top;
+}
+
+.sitewide-search-admin th label {
+	font-weight: bold;
+}
+
+.sitewide-search-utilites {
+	padding: 0 10px;
+}
